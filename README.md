@@ -7,7 +7,7 @@ installer dagster via pip
 commande d'installation  
 
 ```bash
-pip install dagster dagster-webserver dagster-dg-cli create-dagster
+pip install dagster dagster-webserver dagster-dg-cli create-dagster dagster-duckdb
 ```
 
 ajouter Script au PATH pour avoir les commandes
@@ -50,4 +50,10 @@ Commande permettant de verifier les issues
 
 ```bash
 dg check defs
+```
+
+Commande qui lance/materialise les assets
+
+```bash
+dg launch
 ```
