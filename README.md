@@ -44,6 +44,10 @@ lien:
 
 @definitions -> les objets définis doivent etre associé un top-level **definitions** pour etre déployé.  
 
+@dg.definitions -> decorateur qui defini les points d'entré pour charger les definitions au sein de Dagster
+
+@dg.asset_check -> check les assets si ils fournissent les données attendu
+
 ### Command
 
 Commande permettant de verifier les issues
@@ -57,3 +61,11 @@ Commande qui lance/materialise les assets
 ```bash
 dg launch
 ```
+
+### Fonction
+
+dg.Definitions ->
+
+dg.AssetCheckResult -> retourn True ou False pour determiner la validité d'un asset
+
+DuckDBResource -> crée une db sur son ordi local, mettre un path valide
