@@ -15,10 +15,16 @@ ajouter Script au PATH pour avoir les commandes
 ## Initialisation
 
 commande pour crée un projet dagster:  
-```create-dagster project nom_du_project```
+
+```
+create-dagster project nom_du_project
+```
 
 commande pour lancer le dagster-webserver:  
-```dg dev```
+
+```
+dg dev
+```
 
 lancer le localhost pour acceder a UI de dagster  
 lien du localhost:  
